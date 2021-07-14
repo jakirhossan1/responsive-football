@@ -1,0 +1,83 @@
+
+.benner{
+    display: flex;
+    background-color:rgba(10, 53, 243, 0.699);
+    
+}
+h1{
+    font-size: 80px;
+    color: whitesmoke;
+    margin-left: 15%;
+}
+a{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-left: 15%;
+    text-decoration: none;
+    background-color: rgb(241, 48, 14);
+    border-radius:3px;
+}
+
+
+img{
+    width: 700px;
+    height: 500px;
+    margin-top: 10px;
+    
+}
+/* ----------------- */
+
+.players{
+    display: grid;
+    background: rgb(243, 242, 240);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+   
+    
+    
+}
+.player img{
+    width: 400px;
+    height: 300px;
+}
+.player-img{
+   margin-left: 50px;
+    border-radius: 10px;
+ 
+}
+.player{
+    border:5px solid wheat;
+    margin-top: 30px;
+    border-radius: 10px;
+  
+}
+.player-name{
+    padding-left: 10px;
+}
+/* -------------- */
+.highlights-info{
+    display: flex;
+}
+#highlights{
+    color: black;
+}
+
+
+
+ /* ---------- */
+ .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    height: 100px;
+  }
+  footer{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+      width: 300px;
+  }
+  
+  
